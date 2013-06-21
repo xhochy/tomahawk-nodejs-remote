@@ -1,0 +1,35 @@
+{
+  "name": "tomahawk-remote",
+  "preferGlobal": true,
+  "version": "0.3.0",
+  "author": "Uwe L. Korn <uwelk@xhochy.com>",
+  "description": "a simple zero-configuration command-line http server",
+  "contributors": [],
+  "bin": {
+    "tomahawk-remote": "./bin/tomahaw-remote"
+  },
+  "scripts": {
+    "start": "node ./bin/tomahawk-remote"
+  },
+  "main": "./lib/tomahawk-remote",
+  "repository": {
+    "type": "git",
+    "url": "httips://example.com/tomahawk-nodejs-remote.git"
+  },
+  "keywords": [
+    "cli",
+    "http",
+    "tomahawk",
+    "remote",
+    "control"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "optimist": "~0.5.2",
+    "pem": "~1.2.2",
+    "nconf": "~0.6.7"
+  }
+}
